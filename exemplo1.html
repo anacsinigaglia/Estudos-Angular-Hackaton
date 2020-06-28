@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, mundo!</title>
+
+    <script>
+        let a = "carro";
+        var b = 1;
+        const c = "casa";
+
+        function clickNoBotao() {
+            alert("Olá, mundo!");
+        }
+
+        function atualizacaoTexto() {
+            let input = document.getElementById("meuInput");
+            let p = document.getElementById("para");
+            p.textContent = input.value;
+
+            console.log("Oi");
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <h1>só um título</h1>
+        <p id="para">só um parágrafo</p>
+        <span>só um texto</span>
+    </div>
+
+    <input id="meuInput" type="text" oninput="atualizacaoTexto()">
+
+    <div>
+        <select>
+            <option> só uma opção </option>
+            <option> só outra opção </option>
+            <option> só outra de outra opção </option>
+        </select>
+    </div>
+
+    <button onclick="clickNoBotao()">só um botão</button>
+    <a href="https://www.google.com.br/">só um link</a>
+    <img src="lalala.png" />
+
+</body>
+
+</html>
