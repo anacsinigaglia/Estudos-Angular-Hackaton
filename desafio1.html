@@ -13,7 +13,9 @@
         .layout {
             width: 100vw;
             height: 25vh;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         #vermelhor {
@@ -22,10 +24,12 @@
 
         #laranja {
             background-color: orange;
+            justify-content: space-evenly;
         }
 
         #amarelou {
             background-color: yellow;
+            justify-content: flex-end;
         }
     </style>
 
@@ -37,7 +41,8 @@
         </div>
 
         <div class="layout" id="laranja">
-            Div 2
+            <p>Info 1</p>
+            <p>Info 2</p>
         </div>
 
         <div class="layout" id="amarelou">

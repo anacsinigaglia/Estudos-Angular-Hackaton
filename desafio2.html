@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de flexbox</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #vermelhor {
+            background-color: red;
+            width: 100vw;
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #laranja {
+            background-color: orange;
+            width: 100vw;
+            height: 25vh;
+            display: flex;
+            align-items: center;
+        }
+
+        #amareloverde {
+            display: flex;
+            justify-content: space-between;
+            height: 12.5vh;
+        }
+
+        #amarelou {
+            background-color: yellow;
+        }
+
+        #verdeperto {
+            background-color: green;
+            display: flex;
+            align-items: center;
+        }
+
+        #azulroxo {
+            display: flex;
+            height: 12.5vh;
+        }
+
+        #azul {
+            background-color: blue;
+            width: 50vw;
+        }
+
+        #roxo {
+            background-color: blueviolet;
+            width: 50vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="vermelhor">
+        Div 1
+    </div>
+
+    <div id="laranja">
+        Div 1
+    </div>
+
+    <div id="amareloverde">
+        <div id="amarelou">
+            Info 1
+        </div>
+
+        <div id="verdeperto">
+            Info 2
+        </div>
+    </div>
+
+    <div id="azulroxo">
+        <div id="azul">
+            Info 3
+        </div>
+
+        <div id="roxo">
+            Info 4
+        </div>
+    </div>
+</body>
+
+</html>
