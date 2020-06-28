@@ -22,31 +22,74 @@
 
             console.log("Oi");
         }
-
     </script>
+
+    <style>
+        body {
+            background-color: #eeeeee;
+        }
+
+        h1 {
+            color: grey;
+            font-size: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border: solid 2px pink;
+            padding: 2px;
+        }
+
+        .margem-minima {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .margem-minima input,
+        .margem-minima select,
+        .margem-minima button {
+            width: 50vw;
+        }
+    </style>
 
 </head>
 
 <body>
     <div>
         <h1>só um título</h1>
+        <h2>só um subtítulo</h2>
         <p id="para">só um parágrafo</p>
         <span>só um texto</span>
     </div>
 
-    <input id="meuInput" type="text" oninput="atualizacaoTexto()">
+    <div class="margem-minima">
+        <img src="lalala.png" />
+    </div>
 
-    <div>
+    <div class="margem-minima">
+        <a href="https://www.google.com.br/">só um link</a>
+    </div>
+
+    <div class="margem-minima">
+        <input id="meuInput" type="text" oninput="atualizacaoTexto()">
+    </div>
+
+    <div class="margem-minima">
         <select>
-            <option> só uma opção </option>
-            <option> só outra opção </option>
-            <option> só outra de outra opção </option>
+            <option> Opção 1 </option>
+            <option> Opção 2 </option>
+            <option> Opção 3 </option>
         </select>
     </div>
 
-    <button onclick="clickNoBotao()">só um botão</button>
-    <a href="https://www.google.com.br/">só um link</a>
-    <img src="lalala.png" />
+    <div class="margem-minima">
+        <button onclick="clickNoBotao()">só um botão</button>
+    </div>
 
 </body>
 
