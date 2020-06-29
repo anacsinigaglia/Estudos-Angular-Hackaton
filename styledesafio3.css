@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    background-color: #3c55bb;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#imagem-menu {
+    width: auto;
+    height: auto;
+    max-width: 5%;
+    max-height: 5%;
+    display: flex;
+    align-self: center;
+}
+
+.container {
+    margin: 16px;
+}
+
+#imagem-mansao {
+    width: 100%;
+}
+
+#div-cp, #div-vv {
+    display: flex;
+    justify-content: space-between;
+}
+
+
